@@ -62,7 +62,7 @@ npm start
 
 The app will be available at `http://localhost:3000`.
 
-## Demo
+
 
 ## 📝 License
 This project is licensed under the MIT License. See the `LICENSE` file for details.
