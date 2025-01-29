@@ -1,4 +1,3 @@
-
 # Translator App
 
 The **Translator App** is a React-based application that provides text translation functionality using an AI-powered backend service. Users can input text in one language and translate it into another language, with support for multiple languages and themes (light/dark mode).
@@ -13,9 +12,10 @@ The **Translator App** is a React-based application that provides text translati
 - **Frontend**: React, Axios
 - **Backend**: Node.js (API for translation)
 - **Styling**: CSS (with custom themes)
-- **API**: AI-powered translation service
+- **API**: AI-powered translation service (using Hugging Face API)
 
-
+## 🔧 How It Works
+The app utilizes the **facebook/nllb-200-distilled-600M** model from Hugging Face for translation. This model provides efficient and high-quality translations for over 200 languages. The backend communicates with the Hugging Face API to perform translations, ensuring accurate and fast results.
 
 ## ⚙️ Installation
 
@@ -64,11 +64,8 @@ The app will be available at `http://localhost:3000`.
 
 ## Demo
 
-
 ## 📝 License
 This project is licensed under the MIT License. See the `LICENSE` file for details.
 
 ## 🤝 Contributing
 Contributions, issues, and feature requests are welcome! Feel free to check the [issues page](https://github.com/hakanberkiten/Translate-App/issues).
-
-
